@@ -1,0 +1,13 @@
+# Çekirdek
+pymupdf
+numpy
+PyQt6>=6.6,<7
+
+# Sadece QR tarama için yeterli:
+opencv-python
+
+# --- İsteğe bağlılar ---
+# Aşağıdakiler QR dışında DataMatrix/Aztec/PDF417 için gerekir.
+# NOT: opencv-contrib-python kuracaksan "opencv-python" paketini kaldır.
+# opencv-contrib-python
+# pylibdmtx   # inatçı DataMatrix'ler için ekstra okuyucu
